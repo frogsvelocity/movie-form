@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+  </head>
+  <body>
+    <div class="navbar" id="navbar">
+        <div class="header">
+            <h1>MOVIE SURVEY FORM</h1>
+            <p>A SURVEY FORM FOR CINEPHILES!</p>
+        </div>
+        <a href="#top">HOME</a>
+        <a href="#yourgender">FORM</a>
+        <a href="https://youtu.be/dQw4w9WgXcQ">CONTACT</a>
+    </div>
+    <div class="form">
+        <form id="survey" class="survey">
+            <h2 class="details">RESPONDENT'S DETAILS</h2>
+            <label>NAME 
+                <input class="inp" type="text" placeholder="FIRST NAME" required />
+                <input class="inp" type="text" placeholder="LAST NAME" required />
+            </label>
+            <label>EMAIL ADDRESS <input class="inp" type="email" placeholder="example@gmail.com" required/></label>
+            <label id="yourage">YOUR AGE GROUP: <br>
+                <input id="age" name="age" type="radio"> UNDER 18 <br>
+                <input id="age" name="age" type="radio"> 18 - 24 <br>
+                <input id="age" name="age" type="radio"> 24 - 34 <br>
+                <input id="age" name="age" type="radio"> 34 - 45 <br>
+                <input id="age" name="age" type="radio"> OVER 45 <br>
+            </label>
+            <label id="yourgender">GENDER: <br>
+                <input id="gender" name="gender" type="radio"> MALE <br>
+                <input id="gender" name="gender" type="radio"> FEMALE <br>
+                <input id="gender" name="gender" type="radio"> OTHER <br>
+                <input id="gender" name="gender" type="radio"> RATHER NOT SAY <br>
+            </label>
+            <h2 class="questions" id="questionss">QUESTIONNAIRE</h2>
+            <label id="question-one">HOW OFTEN DO YOU WATCH MOVIES? <br>
+                <input id="answer-one" name="answer-one" type="radio"> ALWAYS <br>
+                <input id="answer-one" name="answer-one" type="radio"> SOMETIMES <br>
+                <input id="answer-one" name="answer-one" type="radio"> SELDOM <br>
+                <input id="answer-one" name="answer-one" type="radio"> NEVER <br>
+            </label>
+            <label id="question-two"> WHAT MAKES YOU WATCH A PARTICULAR MOVIE? <br>
+                <input id="answer-two" name="answer-two" type="radio"> MOVIE PLOT <br>
+                <input id="answer-two" name="answer-two" type="radio"> ACTOR/ACTRESSES <br>
+                <input id="answer-two" name="answer-two" type="radio"> DIRECTOR <br>
+                <input id="answer-two" name="answer-two" type="radio"> MOVIE TRAILER <br>
+            </label>
+            <label id="question-three">WHERE DO YOU USUALLY WATCH FILMS? <br>
+                <input id="answer-three" name="answer-three" type="radio"> THEATERS <br>
+                <input id="answer-three" name="answer-three" type="radio"> STREAMING PLATFORMS <br>
+                <input id="answer-three" name="answer-three" type="radio"> TV / DVD<br>
+                <input id="answer-three" name="answer-three" type="radio"> ILLGEGAL WEBSITES<br>
+            </label>
+            <label>FAVORITE GENRE? (choose all that applies) <br>
+                 <input id="answer-four" name="answer-four" type="radio"> ACTION <br>
+                 <input id="answer-four" name="answer-four" type="radio"> ADVENTURE <br>
+                 <input id="answer-four" name="answer-four" type="radio"> CRIME <br>
+                 <input id="answer-four" name="answer-four" type="radio"> DRAMA <br>
+                 <input id="answer-four" name="answer-four" type="radio"> FANTASY <br>
+                 <input id="answer-four" name="answer-four" type="radio"> HORROR <br>
+                 <input id="answer-four" name="answer-four" type="radio"> MYSTERY <br>
+                 <input id="answer-four" name="answer-four" type="radio"> ROMANCE <br>
+                 <input id="answer-four" name="answer-four" type="radio"> SCIENCE FICTION <br>
+                 <input id="answer-four" name="answer-four" type="radio"> THRILLER <br>
+                 <input id="answer-four" name="answer-four" type="radio"> OTHER:    
+                <input type="text" placeholder="please specify">
+            </label>
+            <label id="suggestion">Please let us know if you have any suggestions or comments on how to improve this survey.<br>
+                <textarea id="bio" rows="1" cols="50"></textarea></label>
+                <input id="submit" type="submit">
+            </form>
+        </form>
+    </div>
+    </body>
+</html>
